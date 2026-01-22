@@ -124,12 +124,12 @@ Install-Module ImportExcel
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-
+```
 - หากยังคง Error 
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
+```
 ---
 
 ## ▶️ How to Run
