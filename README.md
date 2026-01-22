@@ -118,6 +118,14 @@ Install-Module ImportExcel
 ```
 
 ---
+## ⚠️ Before run script 
+
+- หาก run error ต้องเปิด Unified Audit Log ก่อนใช้งาน
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+- หากยังคง Error 
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+---
 
 ## ▶️ How to Run
 
