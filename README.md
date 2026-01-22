@@ -121,8 +121,13 @@ Install-Module ImportExcel
 ## ⚠️ Before run script 
 
 - หาก run error ต้องเปิด Unified Audit Log ก่อนใช้งาน
+
+```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 - หากยังคง Error 
+
+```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ---
